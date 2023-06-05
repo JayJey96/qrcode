@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Outfit', sans-serif;
+      font-size: 15px;
+    }
+    body {
+      height: 100vh;
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      width: 250px;
+      background-color: white;
+      padding: 1em;
+      border-radius: 1em;
+    }
+    .qrCode {
+      width: 100%;
+      border-radius: .5em;
+      margin-bottom: 1em;
+    }
+    .card .text {
+      text-align: center;
+    }
+    .card .title {
+      font-weight: 700;
+      font-size: 1.2rem;
+      margin-bottom: 1em;
+      color: hsl(218, 44%, 22%);
+    }
+    .card .desc {
+      font-size: .9rem;
+      color: hsl(220, 15%, 55%);
+      margin-bottom: 1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img class="qrCode" src="images/image-qr-code.png">
+    <div class="text title">Improve your front-end skills by building projects</div>
+    <div class="text desc">Scan the QR code to visit Frontend Mentor and take your coding
+      skills to the next level
+    </div>
+  </div>
+</body>
+</html>
